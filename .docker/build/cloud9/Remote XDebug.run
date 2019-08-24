@@ -1,0 +1,12 @@
+// This file overrides the built-in PHP (built-in web server) runner
+// For more information see http://docs.c9.io:8080/#!/api/run-method-run
+{
+  "cmd": [
+    "sleep", "100"
+  ],
+  "working_dir": "$project_path",
+  "debugger": "xdebug",
+  "debughost": "{{ default .Env.DEBUG_HOST "localhost" }}",
+  "debugport": {{ default .Env.DEBUG_PORT "9000" }},
+  "info": "${debug?Started Listen XDebug}."
+}
