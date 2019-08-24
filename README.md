@@ -8,6 +8,10 @@ The goal with this project is able coding anywhere when you haven't the necessar
 
 The php Dockerfile is make with 5.6 version and Apache, but is possible work with any version you prefer.  
 
+###Requirements
+- Docker
+- Docker Compose
+
 All right! Let's coding, just get pull and start.
 
 ##### Pull request are welcome!
